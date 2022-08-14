@@ -99,9 +99,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: EuphoriaParty;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 0;
 }
 
 header .intro-text .skills {
@@ -150,7 +150,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: EuphoriaParty;
     font-weight: 700;
 }
 
