@@ -1,2 +1,4 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{% include css/euphoria-party/css/euphoria-party.css %}
+{% include css/font-awesome/css/font-awesome.css %}

@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2022-09-23
-img: flowers.png
+img: composicion.png
 alt: image-alt
 project-date: September 2022
 client: Start Bootstrap

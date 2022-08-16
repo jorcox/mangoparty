@@ -21,34 +21,26 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: mangoparty
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: ffed65 #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: ff6d00 #FD6E8A
+  secondary: fea444 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
   copyright: Mango Party
   location: Location
-  social: Around the Web
+  social: Redes Sociales
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
-    url: http://instagram.com/mangopartyzgz
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://instagram.com/mangopartyzgz
 
 # Postal address (add as many lines as necessary)
 #address:
