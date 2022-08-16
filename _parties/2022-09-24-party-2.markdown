@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 2
+title: Noviembre 2028
 date: 2022-09-24
 img: composicion.png
 alt: image-alt

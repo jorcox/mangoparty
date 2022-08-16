@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 4
+title: Enero 2024
 date: 2022-09-24
 img: composicion.png
 alt: image-alt

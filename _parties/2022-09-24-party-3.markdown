@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 3
+title: Marzo 2036
 date: 2022-09-24
 img: composicion.png
 alt: image-alt
