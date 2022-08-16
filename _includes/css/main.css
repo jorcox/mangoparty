@@ -80,10 +80,14 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-half {
+    width: 50%;
+}
+
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.terciary }};
 }
 
 header .container {
@@ -152,6 +156,11 @@ header .intro-text .skills {
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 700;
+}
+
+.navbar-special {
+    display: flex;
+    justify-content: center;
 }
 
 .navbar a:focus {
