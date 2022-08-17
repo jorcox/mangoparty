@@ -80,8 +80,13 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-.img-half {
-    width: 50%;
+.img-mango {
+    width: 60%;
+}
+@media(max-width:767px) {
+    .img-mango {
+        width: 75%;
+    }
 }
 
 header {
@@ -120,8 +125,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     header .intro-text .name {
@@ -163,10 +168,47 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
-.navbar-special {
-    display: flex;
-    justify-content: center;
+@media(max-width:767px) {
+    .navbar-special {
+        display: table-cell;
+    }
 }
+
+@media(min-width:768px) {
+    .navbar-special {
+        display: flex;
+    }
+}
+
+.nav>li {
+    padding: 13px;
+}
+
+.nav>li>a {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    /*background-color: #3be6c4;*/
+}
+@media(max-width:767px) {
+    .nav > li > a {
+        font-size: 1em;
+    }
+}
+
+.nav>li>a:hover {
+    transform: translateY(-7px);
+    background-color: #{{ site.color.terciary }};
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.3);
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+
 
 .navbar a:focus {
     outline: 0;
@@ -185,24 +227,9 @@ header .intro-text .skills {
     border: 0;
 }
 
-.nav>li>a {
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    /*font-size: 2em;*/
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    border-radius: 50px;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
-    /*background-color: #3be6c4;*/
-}
-
-.nav>li>a:hover {
-    /*background-color: #3be6c4;*/
-
-    color: #fff;
-    transform: translateY(-7px);
+.nav-menu {
+    display: flex;
+    justify-content: center;
 }
 
 section {
